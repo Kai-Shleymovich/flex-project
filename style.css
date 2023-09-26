@@ -18,7 +18,7 @@ font-family: 'Kenia', cursive;
 }
 html,
 * {
-  font-size: 25px;
+  font-size: 20px;
   box-sizing: border-box;
   margin: 0;
   padding: 10;
@@ -58,4 +58,10 @@ html,
 }
 .desc{
   margin:auto 0;
+}
+#wide{
+  transition: 1s all;
+}
+#wide:hover{
+  transform: scaleY(3) scaleX(0.5)
 }
