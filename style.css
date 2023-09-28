@@ -58,12 +58,33 @@ body {
 
 }
 #wide { 
-  transition: 1s all;
+  transition: 0.3s all;
+}
+#spin {
+  transition: 0.3s all;
+}
+#small {
+  transition: 0.3s all;
+}
+#gone{
+  transition: 0.3s;
+}
+#move{
+  transition: 0.3s;
 }
 #wide:hover {
   transform: scaleY(3) scaleX(0.5);
 }
-#no_read:hover{
-  color: #000;
-  background-color: #000;
+#small:hover{
+  
+  transform: scaleY(0.2) scaleX(0.2);
+}
+#spin:hover{
+  transform: rotate(36000deg);
+}
+#gone:hover{
+  opacity: 0;
+}
+#move:hover{
+transform: translateX(75%);
 }
