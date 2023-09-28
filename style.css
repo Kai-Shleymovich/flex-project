@@ -51,5 +51,19 @@ html,
 }
 .card:hover{
   filter: drop-shadow(8px 8px 8px black);
-  
+}
+.desc {
+  margin: auto 0;
+  font-size: 1.35rem;
+
+}
+#wide { 
+  transition: 1s all;
+}
+#wide:hover {
+  transform: scaleY(3) scaleX(0.5);
+}
+#no_read:hover{
+  color: #000;
+  background-color: #000;
 }
