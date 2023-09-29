@@ -105,3 +105,11 @@ body {
     background-color: blanchedalmond;
   }
 }
+@media (max-width: 600px) {
+ .card{
+  width: 75%;}
+ }
+ @media (max-width: 600px) {
+  .animation{
+   width: 75%;}
+  }
